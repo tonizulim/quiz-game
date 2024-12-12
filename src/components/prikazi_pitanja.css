@@ -1,0 +1,36 @@
+
+
+#question_div{
+    background-color: #5472d4;
+    width: 40vw;
+    height: 60vh;
+    min-width: 300px;
+    padding: 15px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    width: 100%;
+    height: 50px;
+}
+
+.correct{
+    background-color: green;
+}
+
+.incorrect{
+    background-color: red;
+}
+
+.correct:hover{
+    background-color: green;
+}
+
+.incorrect:hover{
+    background-color: red;
+}
+
+

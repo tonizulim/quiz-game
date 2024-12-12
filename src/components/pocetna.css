@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+}
+
+#main{
+    background-color: #5472d4;
+    width: 40vw;
+    height: 60vh;
+    min-width: 300px;
+    padding: 15px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    height: 30px;
+    width: 60px;
+    border-radius: 100px;
+    background-color: #e9cdff;
+    border: none;
+    margin: 15px;
+}
+
+button:hover{
+    background-color: #deb8fa;
+    cursor: pointer;
+}
+
+select{
+    background-color: #e9cdff;
+    border: none;
+    font-size: large;
+    border-radius: 3px;
+}
